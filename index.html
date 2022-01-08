@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập - ôn tập mảng - quản lý sinh viên - Lập trình Javascript</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="main">
+	<div>
+			<div class="form"><h3>Management Products</h3></div>
+			<script type="text/javascript">
+				var svList=[{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				{
+					'Ten' : ' Pham Tuan Anh',
+					'Tuoi' : '21',
+					'DiaChi': 'HN',
+					'Email': 'phamtuananh2101@gmail.com',
+					'SĐT': '0836668336',
+				},
+				]
+				function listSV() {
+					for (var i = 0; i < svList.length; i++) {
+					
+					document.write(
+							`<tr>
+								<td>${i+1}</td>
+								<td>${svList[i].Ten}</td>
+								<td>${svList[i].Tuoi}</td>
+								<td>${svList[i].DiaChi}</td>
+								<td>${svList[i].Email}</td>
+								<td>${svList[i].SĐT}</td>
+							</tr>`)
+					}				
+				}
+
+			</script>
+			<table border="1" cellpadding="5">
+				<tr>
+						<th>STT</th>
+						<th>Ten</th>
+						<th>Tuoi</th>
+						<th>DiaChi</th>
+						<th>Email</th>
+						<th>SĐT</th>
+				</tr>
+		<tbody>
+			<script type="text/javascript">
+				listSV()
+			</script>
+		</tbody>				
+		    </table>
+		    <script type="text/javascript"></script>
+	</div>
+</body>
+</html>
